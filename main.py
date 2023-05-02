@@ -38,9 +38,9 @@ print(driver.title)
 
 # Entering email, password, and logging in
 email_input = driver.find_element(By.CSS_SELECTOR, "#email")
-email_input.send_keys("sachin_python@gmail.com")
+email_input.send_keys("YOUR_FACEBOOK_EMAIL_ID")
 pass_input = driver.find_element(By.CSS_SELECTOR, "#pass")
-pass_input.send_keys("sss12345")
+pass_input.send_keys("YOUR_FACEBOOK_PASSWORD")
 fb_login_button = driver.find_element(By.CSS_SELECTOR, "#loginbutton")
 fb_login_button.click()
 
